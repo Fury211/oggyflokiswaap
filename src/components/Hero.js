@@ -47,9 +47,7 @@ const Hero = () => {
       </div>
       <img src={heroimg} alt='oggyfloki adventure' className='hero-mainImg'/>
 <div className='hero-content'>
-  <Link to={'https://pancakeswap.finance/swap?outputCurrency=0x03002eb4de8Ff52018da7f65020da66094166bb6'}>
-  <button className='joinbtn'>💰 BUY $OGF TOKENS</button>
-  </Link>
+
   <Link to={'/app-oggyfloki'}>
 <button className='playbtn'>PLAY OGGYFLOKI</button>
 </Link>
@@ -63,6 +61,18 @@ const Hero = () => {
 
 
 
+                      ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,  centercontainer
+<iframe
+              src="https://iframe-pancakeswap.netlify.app"
+              width="420"
+              height="630"
+            
+            ></iframe>
+
+
+
+
+            
     </div>
   )
 }
